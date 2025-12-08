@@ -32,8 +32,8 @@
       }
       .lag, .ps199 {
         background-color: aliceblue;
-        width: 48%;
-        border-radius: 0px;
+        width: 40%;
+        border-radius: 20px;
         padding: 10px;
       }
       .lag:hover, .ps199:hover {
@@ -42,12 +42,12 @@
 
       img {
         width: 30%;
-        border-radius: 0px;
+        border-radius: 10px;
       }
     </style>
   </head>
   <body>
-    <h1>The Two Coolest People in the World!</h1>
+    <h1>All About Us</h1>
 
     <div class="us">
 
@@ -56,22 +56,22 @@
       
       <div class="lag">
         <h2>LaGuardia Student</h2>
-        <p><b>First Name: </b>  </p>
-        <p><b>Favorite Subject: </b>  </p>
+        <p><b>First Name: </b> Jocelyn</p>
+        <p><b>Favorite Subject: </b>Web Development</p>
         <center>
           <img
-            src=" "
+            src="https://mshallwebdevelopment.wordpress.com/wp-content/uploads/2024/05/cropped-2023_webdevlogo_transpnoyear.png?w=1024"
           />
         </center>
-        <p><b>Favorite Movie: </b>  </p>
+        <p><b>Favorite Movie: </b>Moana</p>
         <center>
           <img
-            src=" "
+            src="https://lumiere-a.akamaihd.net/v1/images/p_moana_20530_214883e3.jpeg?region=0%2C0%2C540%2C810"
           />
         </center>
-        <p><b>Favorite Book: </b> </p>
+        <p><b>Favorite Book: </b>The Bad Guys</p>
         <center>
-          <img src="" />
+          <img src="https://m.media-amazon.com/images/I/91GCdFWzH-L.jpg" />
         </center>
       </div>
 
