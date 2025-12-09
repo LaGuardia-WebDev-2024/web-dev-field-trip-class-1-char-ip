@@ -6,12 +6,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <style>
       body {
-        background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLXMxMTMtYWstNTEyMy1zcy0wMi5qcGc.jpg");
+        background-image: url("wow.jpg");
+          background-repeat: no-repeat;
+        background-attachment: fixed;
       }
       h1 {
-        font-family: "Chewy", system-ui;
+         font-family: 'Playfair Display', serif;
         text-align: center;
         font-size: 70px;
         color: darkblue;
@@ -31,7 +34,8 @@
         justify-content: space-around;
       }
       .lag, .ps199 {
-        background-color: aliceblue;
+        background-color:aliceblue;
+        opacity: 0.2;
         width: 48%;
         border-radius: 0px;
         padding: 10px;
@@ -44,10 +48,18 @@
         width: 30%;
         border-radius: 0px;
       }
+      .images {
+        width: 300px
+      }
+      #borderimg { 
+        border: 80px solid transparent;
+        padding: 0px;
+        border-image: url(border.png) 90 round;
+      }
     </style>
   </head>
   <body>
-    <h1>The Two Coolest People in the World!</h1>
+    <h1>The Coolest People in the World!</h1>
 
     <div class="us">
 
@@ -55,23 +67,38 @@
 
       
       <div class="lag">
-        <h2>LaGuardia Student</h2>
-        <p><b>First Name: </b>  </p>
-        <p><b>Favorite Subject: </b>  </p>
+        <center><h2>LaGuardia Student</h2></center>
+        <p><b>First Name: </b> Charlotte </p>
         <center>
           <img
-            src=" "
+            src="hey.jpg"
+            class="images"
+            id="borderimg"
           />
         </center>
-        <p><b>Favorite Movie: </b>  </p>
+        <p><b>Favorite Subject: </b> Art </p>
         <center>
           <img
-            src=" "
+            src="gi.png"
+            class="images"
+            id="borderimg"
           />
         </center>
-        <p><b>Favorite Book: </b> </p>
+        <p><b>Favorite Movie: </b> Thor : Ragnarok </p>
         <center>
-          <img src="" />
+          <img
+            src="https://pbs.twimg.com/media/DJIJ2EDWsAU0o0u.jpg" 
+            class="images"
+            id="borderimg"
+          />
+        </center>
+        <p><b>Favorite Book: </b> Stardust </p>
+        <center>
+          <img 
+          src="https://m.media-amazon.com/images/I/61qWDOnqJTL._AC_UF1000,1000_QL80_.jpg"
+          class="images"
+          id="borderimg"
+          />
         </center>
       </div>
 
@@ -79,7 +106,7 @@
 
 
       <div class="ps199">
-        <h2>PS 199 Student</h2>
+        <center><h2>PS 199 Student</h2></center>
         <p><b>First Name: </b> ****Name**** </p>
         <p><b>Favorite Subject: </b> ****Subject****</p>
         <center>
